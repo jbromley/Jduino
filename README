@@ -1,0 +1,15 @@
+Jduino
+======
+
+These are the design files (EAGLE 6) for a simple, homebrew Arduino
+clone. It uses the Arduino clone from chapter 6 of _Arduino Robotics_
+and seeks to make a smaller board that preserves the Arduino
+outline. Additionally, I hope to add the following features:
+
+ * power switch,
+ * power protection diode,
+ * smaller L4931 LDO voltage regulator,
+ * right angle FTDI port on edge of board so programming can be done
+   with a shield attached.
+
+
