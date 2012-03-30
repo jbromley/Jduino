@@ -335,10 +335,24 @@ UsedLibrary="/Applications/EAGLE-6.1.0/lbr/xilinx-xcv.lbr"
 UsedLibrary="/Applications/EAGLE-6.1.0/lbr/zetex.lbr"
 UsedLibrary="/Applications/EAGLE-6.1.0/lbr/zilog.lbr"
 UsedLibrary="/Users/jbromley/Documents/Eagle/lbr/jb-eagle.lbr"
+UsedLibrary="/Applications/EAGLE-6.1.0/lbr/SparkFun/SparkFun-Aesthetics.lbr"
+UsedLibrary="/Applications/EAGLE-6.1.0/lbr/SparkFun/SparkFun-AnalogIC.lbr"
+UsedLibrary="/Applications/EAGLE-6.1.0/lbr/SparkFun/SparkFun-Boards.lbr"
+UsedLibrary="/Applications/EAGLE-6.1.0/lbr/SparkFun/SparkFun-Connectors.lbr"
+UsedLibrary="/Applications/EAGLE-6.1.0/lbr/SparkFun/SparkFun-DigitalIC.lbr"
+UsedLibrary="/Applications/EAGLE-6.1.0/lbr/SparkFun/SparkFun-DiscreteSemi.lbr"
+UsedLibrary="/Applications/EAGLE-6.1.0/lbr/SparkFun/SparkFun-Displays.lbr"
+UsedLibrary="/Applications/EAGLE-6.1.0/lbr/SparkFun/SparkFun-Electromechanical.lbr"
+UsedLibrary="/Applications/EAGLE-6.1.0/lbr/SparkFun/SparkFun-FreqCtrl.lbr"
+UsedLibrary="/Applications/EAGLE-6.1.0/lbr/SparkFun/SparkFun-LED.lbr"
+UsedLibrary="/Applications/EAGLE-6.1.0/lbr/SparkFun/SparkFun-Passives.lbr"
+UsedLibrary="/Applications/EAGLE-6.1.0/lbr/SparkFun/SparkFun-PowerIC.lbr"
+UsedLibrary="/Applications/EAGLE-6.1.0/lbr/SparkFun/SparkFun-RF.lbr"
+UsedLibrary="/Applications/EAGLE-6.1.0/lbr/SparkFun/SparkFun-Sensors.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="640 458 1913 1350"
+Loc="383 218 1656 1110"
 State=2
 Number=0
 
