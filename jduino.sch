@@ -13147,7 +13147,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.4572" drill="0.2032">
+<class number="0" name="default" width="0.4064" drill="0.2032">
 <clearance class="0" value="0.2032"/>
 </class>
 <class number="1" name="power" width="0.6096" drill="0.2032">
