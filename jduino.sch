@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12222,6 +12222,26 @@ Through-hole SPDT Switch&lt;br&gt;
 <hole x="-1.5" y="0" drill="0.9"/>
 <hole x="1.5" y="0" drill="0.9"/>
 </package>
+<package name="STAND-OFF">
+<description>&lt;b&gt;Stand Off&lt;/b&gt;&lt;p&gt;
+This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components. SKU : PRT-00447</description>
+<wire x1="0" y1="1.8542" x2="0" y2="-1.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="-180"/>
+<circle x="0" y="0" radius="2.794" width="0.127" layer="39"/>
+<hole x="0" y="0" drill="3.302"/>
+</package>
+<package name="STAND-OFF-TIGHT">
+<description>&lt;b&gt;Stand Off&lt;/b&gt;&lt;p&gt;
+This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components. SKU : PRT-00447</description>
+<wire x1="0" y1="1.8542" x2="0" y2="-1.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="-180"/>
+<circle x="0" y="0" radius="2.794" width="0.127" layer="39"/>
+<hole x="0" y="0" drill="3.048"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TOGGLE">
@@ -12236,6 +12256,9 @@ Through-hole SPDT Switch&lt;br&gt;
 <pin name="P" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <pin name="S" x="5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
 <pin name="O" x="5.08" y="2.54" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="STAND-OFF">
+<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -12322,6 +12345,25 @@ Simple slide switch. Spark Fun Electronics SKU : COM-00102</description>
 <connect gate="1" pin="P" pad="2"/>
 <connect gate="1" pin="S" pad="3"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="STAND-OFF" prefix="JP">
+<description>&lt;b&gt;#4 Stand Off&lt;/b&gt;&lt;p&gt;
+This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components. SKU : PRT-00447</description>
+<gates>
+<gate name="G$1" symbol="STAND-OFF" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="STAND-OFF">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TIGHT" package="STAND-OFF-TIGHT">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -13259,6 +13301,10 @@ Standard 8.5x11 US Letter frame</description>
 <part name="C2" library="SparkFun-Passives" deviceset="CAP" device="PTH2" value="0.1uF"/>
 <part name="C4" library="SparkFun-Passives" deviceset="CAP" device="PTH2" value="0.1uF"/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
+<part name="JP1" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
+<part name="JP2" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
+<part name="JP3" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
+<part name="JP4" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13314,6 +13360,10 @@ Standard 8.5x11 US Letter frame</description>
 <instance part="C4" gate="G$1" x="-68.58" y="43.18" rot="R90"/>
 <instance part="FRAME1" gate="G$1" x="-134.62" y="-91.44"/>
 <instance part="FRAME1" gate="G$2" x="12.7" y="-91.44"/>
+<instance part="JP1" gate="G$1" x="27.94" y="-53.34"/>
+<instance part="JP2" gate="G$1" x="35.56" y="-53.34"/>
+<instance part="JP3" gate="G$1" x="43.18" y="-53.34"/>
+<instance part="JP4" gate="G$1" x="50.8" y="-53.34"/>
 </instances>
 <busses>
 </busses>
