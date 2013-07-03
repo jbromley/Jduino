@@ -12839,7 +12839,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <wire x1="-91.44" y1="-38.1" x2="-101.6" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="-101.6" y1="-38.1" x2="-101.6" y2="-40.64" width="0.1524" layer="91"/>
