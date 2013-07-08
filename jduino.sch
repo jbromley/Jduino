@@ -12898,20 +12898,7 @@ Pins are spaced at 50 mil at the device. The outer pins bend out for a 100 mil s
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="1"/>
-<wire x1="-10.16" y1="43.18" x2="-10.16" y2="71.12" width="0.1524" layer="91"/>
-<label x="-17.78" y="50.8" size="1.778" layer="95"/>
-<wire x1="-43.18" y1="43.18" x2="-25.4" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="43.18" x2="-43.18" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="J6" gate="G$1" pin="2"/>
-<pinref part="IC2" gate="1" pin="PD1(TXD/PCINT17)"/>
-<wire x1="-30.48" y1="-7.62" x2="-25.4" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="2"/>
-<label x="-20.32" y="-7.62" size="1.778" layer="95"/>
-<wire x1="-25.4" y1="-7.62" x2="-7.62" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="43.18" x2="-25.4" y2="-7.62" width="0.1524" layer="91"/>
-<junction x="-25.4" y="-7.62"/>
-<wire x1="-10.16" y1="43.18" x2="-25.4" y2="43.18" width="0.1524" layer="91"/>
-<junction x="-25.4" y="43.18"/>
+<wire x1="-10.16" y1="71.12" x2="-10.16" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -13109,6 +13096,20 @@ Pins are spaced at 50 mil at the device. The outer pins bend out for a 100 mil s
 <pinref part="LED2" gate="G$1" pin="C"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="-25.4" y1="-55.88" x2="-25.4" y2="-60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="D1" class="0">
+<segment>
+<wire x1="-43.18" y1="43.18" x2="-25.4" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="43.18" x2="-43.18" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="2"/>
+<pinref part="IC2" gate="1" pin="PD1(TXD/PCINT17)"/>
+<wire x1="-30.48" y1="-7.62" x2="-25.4" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="2"/>
+<label x="-20.32" y="-7.62" size="1.778" layer="95"/>
+<wire x1="-25.4" y1="-7.62" x2="-7.62" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="43.18" x2="-25.4" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="-25.4" y="-7.62"/>
 </segment>
 </net>
 </nets>
