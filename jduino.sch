@@ -12730,6 +12730,9 @@ Pins are spaced at 50 mil at the device. The outer pins bend out for a 100 mil s
 <wire x1="-116.84" y1="17.78" x2="-116.84" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="RESET" gate="S" pin="2"/>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
+<pinref part="RESET" gate="S" pin="1"/>
+<wire x1="-109.22" y1="17.78" x2="-109.22" y2="20.32" width="0.1524" layer="91"/>
+<junction x="-109.22" y="17.78"/>
 </segment>
 <segment>
 <wire x1="-111.76" y1="0" x2="-116.84" y2="0" width="0.1524" layer="91"/>
@@ -12895,6 +12898,9 @@ Pins are spaced at 50 mil at the device. The outer pins bend out for a 100 mil s
 <pinref part="RESET" gate="S" pin="4"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <label x="-96.52" y="15.24" size="1.778" layer="95"/>
+<pinref part="RESET" gate="S" pin="3"/>
+<wire x1="-99.06" y1="17.78" x2="-99.06" y2="20.32" width="0.1524" layer="91"/>
+<junction x="-99.06" y="17.78"/>
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="1"/>
